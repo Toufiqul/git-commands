@@ -3,4 +3,30 @@
 # commit
 # push
 # pull 
+# status (see newly changed and added files)
+# ls | grep ${the part that will be matched with files}
+# init
 
+
+# to add new files and updates{
+    git add .  (this will tell git to track all the files in the directory)
+    git commit -m "message" -m "description"
+    git push
+}
+
+#to generate rsa key pair{
+    ssh-keygen -t rsa -b 4096 -C "fahim.prime@gmail.com"
+    (command ) -t(type of enc) -b(strength of enc) -C(mail)
+    set name for key
+    use passphrase(optional)
+    (testkey and testkey.pub. .pub means public key)
+    cat testkey.pub (to display the key in command line)
+    copy and paste it to github->settings->ssh and gpg keys->new ssh key
+    then might need to set it to local machine
+}
+
+# git init
+# git remote add origin ${new github repo link}
+# git remote -v (to check any remote repos connected to the directory)
+# git push -u origin main
+ -u to set upstream, so , dont have to type origin main everytime. shortcut

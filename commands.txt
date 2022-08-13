@@ -1,0 +1,6 @@
+# clone
+# add
+# commit
+# push
+# pull 
+

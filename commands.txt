@@ -33,5 +33,6 @@
 
 # git branch (to see all the branches)
 # git checkout -b ${name of new branch}
-
+then add and commit the file to github and then 
+# git push -u origin ${name of branch}
 random text

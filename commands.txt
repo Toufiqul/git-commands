@@ -9,7 +9,8 @@
 
 
 # to add new files and updates{
-    git add .  (this will tell git to track all the files in the directory)
+    git add .  (this will tell git to track all the files in the directory) or
+    git add ${filename}
     git commit -m "message" -m "description"
     git push
 }
@@ -27,6 +28,7 @@
 
 # git init
 # git remote add origin ${new github repo link}
+# git add .
 # git remote -v (to check any remote repos connected to the directory)
 # git push -u origin main
  -u to set upstream, so , dont have to type origin main everytime. shortcut
@@ -35,4 +37,17 @@
 # git checkout -b ${name of new branch}
 then add and commit the file to github and then 
 # git push -u origin ${name of branch}
-random text
+# git branch -d ${name of branch}
+# git commit -am "${message}" (does git add and commit at the same time; only works for files that are alrady added to git)
+# git merge main (keep local main updated with remote main)
+
+# git reset
+# git reset ${file name}
+# git reset HEAD (will be set to last previous commit state)
+# git reset HEAR~3 (3 commits before previous)
+# git log
+# git reset ${hash of the commit i want to go back to} (the code will be there locally but not in github)
+# git reset -- hard ${commit hash}  (will delete codes from local as well)
+# git merge master --allow-unrelated-histories
+
+fork to copy a repo completely along with all the branches

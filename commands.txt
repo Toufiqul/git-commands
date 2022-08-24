@@ -30,6 +30,7 @@
 # git remote add origin ${new github repo link}
 # git add .
 # git remote -v (to check any remote repos connected to the directory)
+# might have to create main branch (git branch -M main)
 # git push -u origin main
  -u to set upstream, so , dont have to type origin main everytime. shortcut
 

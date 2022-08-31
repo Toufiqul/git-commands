@@ -51,4 +51,7 @@ then add and commit the file to github and then
 # git reset -- hard ${commit hash}  (will delete codes from local as well)
 # git merge master --allow-unrelated-histories
 
+#git show -${int value}
+#git log -${int value}
+
 fork to copy a repo completely along with all the branches

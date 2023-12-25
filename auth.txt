@@ -3,6 +3,9 @@
 #For a Linux-based OS ⤴
 For Linux, you need to configure the local GIT client with a username and email address,
 
+$git config --global credential.helper store (it will store the credentials on the machine in plain text, has security concerns)
+(can later use $git config -l to get the token/password)
+
 $ git config --global user.name "your_github_username"
 $ git config --global user.email "your_github_email"
 $ git config -l

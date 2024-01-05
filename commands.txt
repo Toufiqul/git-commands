@@ -12,6 +12,7 @@
     git add .  (this will tell git to track all the files in the directory) or
     git add ${filename}
     git commit -m "message" -m "description"
+    git commit -am "message" to add and commit with one command
     git push
 }
 

@@ -22,13 +22,13 @@ init
 }
 
 #to generate rsa key pair{
-    ssh-keygen -t rsa -b 4096 -C "fahim.prime@gmail.com"
+    >ssh-keygen -t rsa -b 4096 -C "fahim.prime@gmail.com"
     (command ) -t(type of enc) -b(strength of enc) -C(mail)
-    set name for key
+    >set name for key
     use passphrase(optional)
     (testkey and testkey.pub. .pub means public key)
-    cat testkey.pub (to display the key in command line)
-    copy and paste it to github->settings->ssh and gpg keys->new ssh key
+    >cat testkey.pub (to display the key in command line)
+    >copy and paste it to github->settings->ssh and gpg keys->new ssh key
     then might need to set it to local machine
 }
 
@@ -61,3 +61,8 @@ git show -${int value}
 git log -${int value}
 ```
 #### fork to copy a repo completely along with all the branches
+
+### rename files
+``` 
+git mv {old file name} {new file name}
+```

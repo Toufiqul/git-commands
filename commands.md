@@ -1,10 +1,8 @@
-```
-clone
-git clone {repo link} {folder_name}
-git clone {repo link} .
-```
+`clone` <br/>
+`git clone {repo link} {folder_name}` <br/>
+`git clone {repo link} .` <br/>
 
-```
+```bash
 add
 commit
 push
@@ -27,12 +25,17 @@ init
 ### to generate rsa key pair
 
 > ssh-keygen -t rsa -b 4096 -C "fahim.prime@gmail.com"
+
     (command ) -t(type of enc) -b(strength of enc) -C(mail)
+
 > set name for key
+
     use passphrase(optional)
     (testkey and testkey.pub. .pub means public key)
->cat testkey.pub (to display the key in command line)
->copy and paste it to github->settings->ssh and gpg keys->new ssh key
+
+> cat testkey.pub (to display the key in command line)
+> copy and paste it to github->settings->ssh and gpg keys->new ssh key
+
     then might need to set it to local machine
 
 ### initiate a new repo

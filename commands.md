@@ -12,15 +12,14 @@ ls | grep ${the part that will be matched with files}
 init
 ```
 
-### to add new files and updates{
+### to add new files and updates
 
-    git add .  (this will tell git to track all the files in the directory) or
+    git add .  (this will tell git to track all the files in the directory)
+    or
     git add ${filename}
     git commit -m "message" -m "description"
     git commit -am "message" to add and commit with one command
     git push
-
-}
 
 ### to generate rsa key pair
 
@@ -75,4 +74,10 @@ git log -${int value}
 
 ```
 git mv {old file name} {new file name}
+```
+
+```
+
+```
+[This is a link](link here)
 ```

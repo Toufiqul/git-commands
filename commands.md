@@ -13,7 +13,7 @@ ls | grep ${the part that will be matched with files}
 init
 ```
 
-# to add new files and updates{
+### to add new files and updates{
     git add .  (this will tell git to track all the files in the directory) or
     git add ${filename}
     git commit -m "message" -m "description"
@@ -32,7 +32,7 @@ init
     then might need to set it to local machine
 }
 
-# initiate a new repo
+### initiate a new repo
 ```
 git init
 git remote add origin ${new github repo link}
@@ -43,7 +43,7 @@ git push -u origin main
  -u to set upstream, so , dont have to type origin main everytime. shortcut
 ```
 
-#branch
+### branch
 ```
  git branch (to see all the branches)
  git checkout -b ${name of new branch}
@@ -54,9 +54,10 @@ then add and commit the file to github and then
  git merge main (keep local main updated with remote main)
 ```
 
-# git merge master --allow-unrelated-histories
+>git merge master --allow-unrelated-histories
 
-#git show -${int value}
-#git log -${int value}
-
-fork to copy a repo completely along with all the branches
+```
+git show -${int value}
+git log -${int value}
+```
+#### fork to copy a repo completely along with all the branches

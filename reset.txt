@@ -1,3 +1,21 @@
+#git revert <first few letters of old commit id>
+This tells Git to create a new commit which exactly undoes the changes of a previous commit.
+This is a safe undo. After all, if you decide you didn't want to revert your commit after all, you can revert the revert.
+In addition, when you start sharing your commits with other people, it's normal for contributors to add commits, but it is not normal for contributors to remove commits.
+
+Therefore you should use git revert in either of the following cases:
+You want the flexibility to bring back your changes later.
+You are using a remote repository (more on that soon).
+
 # git reset --hard <old-commit-id>
 (get commit id) #git log
+reset is not a safe undo. it is not possible to bring back a commit after it had been deleted(reset). use when the repo isnt shared with others.
 
+
+# git reset
+# git reset ${file name}
+# git reset HEAD (will be set to last previous commit state)
+# git reset HEAR~3 (3 commits before previous)
+# git log
+# git reset ${hash of the commit i want to go back to} (the code will be there locally but not in github)
+# git reset -- hard ${commit hash}  (will delete codes from local as well)

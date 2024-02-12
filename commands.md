@@ -1,12 +1,17 @@
-# clone
-# add
-# commit
-# push
-# pull 
-# status (see newly changed and added files)
-# ls | grep ${the part that will be matched with files}
-# init
-
+```
+clone
+git clone {repo link} {folder_name}
+git clone {repo link} .
+```
+```
+add
+commit
+push
+pull (pulls updated from remote)
+status (see newly changed and added files)
+ls | grep ${the part that will be matched with files}
+init
+```
 
 # to add new files and updates{
     git add .  (this will tell git to track all the files in the directory) or
@@ -27,29 +32,28 @@
     then might need to set it to local machine
 }
 
-# git init
-# git remote add origin ${new github repo link}
-# git add .
-# git remote -v (to check any remote repos connected to the directory)
-# might have to create main branch (git checkout -b main) or (*didnt work last time* git branch -M main) 
-# git push -u origin main
+# initiate a new repo
+```
+git init
+git remote add origin ${new github repo link}
+git add .
+git remote -v (to check any remote repos connected to the directory)
+might have to create main branch (git checkout -b main) or (*didnt work last time* git branch -M main) 
+git push -u origin main
  -u to set upstream, so , dont have to type origin main everytime. shortcut
+```
 
-# git branch (to see all the branches)
-# git checkout -b ${name of new branch}
+#branch
+```
+ git branch (to see all the branches)
+ git checkout -b ${name of new branch}
 then add and commit the file to github and then 
-# git push -u origin ${name of branch}
-# git branch -d ${name of branch}
-# git commit -am "${message}" (does git add and commit at the same time; only works for files that are alrady added to git)
-# git merge main (keep local main updated with remote main)
+ git push -u origin ${name of branch}
+ git branch -d ${name of branch}
+ git commit -am "${message}" (does git add and commit at the same time; only works for files that are alrady added to git)
+ git merge main (keep local main updated with remote main)
+```
 
-# git reset
-# git reset ${file name}
-# git reset HEAD (will be set to last previous commit state)
-# git reset HEAR~3 (3 commits before previous)
-# git log
-# git reset ${hash of the commit i want to go back to} (the code will be there locally but not in github)
-# git reset -- hard ${commit hash}  (will delete codes from local as well)
 # git merge master --allow-unrelated-histories
 
 #git show -${int value}

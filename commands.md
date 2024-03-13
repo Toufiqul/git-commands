@@ -2,7 +2,7 @@
 `git clone {repo link} {folder_name}` <br/>
 `git clone {repo link} .` <br/>
 
-```bash
+```
 add
 commit
 push
@@ -59,6 +59,11 @@ then add and commit the file to github and then
  git branch -d ${name of branch}
  git commit -am "${message}" (does git add and commit at the same time; only works for files that are alrady added to git)
  git merge main (keep local main updated with remote main)
+```
+
+### pull request(merge request)
+``` 
+git pull {url of original repo}
 ```
 
 > git merge master --allow-unrelated-histories

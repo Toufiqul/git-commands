@@ -63,7 +63,7 @@ then add and commit the file to github and then
 
 ### pull request(merge request)
 ``` 
-git pull {url of original repo}
+wgit pull {url of original repo}
 ```
 
 > git merge master --allow-unrelated-histories

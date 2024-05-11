@@ -7,6 +7,7 @@ add
 commit
 push
 pull (pulls updated from remote)
+git pull origin ${branch-name}
 status (see newly changed and added files)
 ls | grep ${the part that will be matched with files}
 init
@@ -20,6 +21,9 @@ init
     git commit -m "message" -m "description"
     git commit -am "message" to add and commit with one command
     git push
+
+### merging local with remote branch
+`git pull origin ${branch-name}`
 
 ### to generate rsa key pair
 
